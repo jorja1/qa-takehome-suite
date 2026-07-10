@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-10T06:38:44 UTC" name="Surefire suite" finished-at="2026-07-10T06:38:51 UTC" duration-ms="7112">
+    <groups>
+    </groups>
+    <test started-at="2026-07-10T06:38:44 UTC" name="Surefire test" finished-at="2026-07-10T06:38:51 UTC" duration-ms="7112">
+      <class name="com.assessment.tests.ApiTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.assessment.tests.ApiTests@15f47664]" started-at="2026-07-10T06:38:44 UTC" name="setUp" finished-at="2026-07-10T06:38:44 UTC" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateObject()[pri:1, instance:com.assessment.tests.ApiTests@15f47664]" started-at="2026-07-10T06:38:44 UTC" name="testCreateObject" finished-at="2026-07-10T06:38:44 UTC" duration-ms="542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateObject -->
+        <test-method signature="testReadObject()[pri:2, instance:com.assessment.tests.ApiTests@15f47664]" started-at="2026-07-10T06:38:44 UTC" name="testReadObject" finished-at="2026-07-10T06:38:45 UTC" depends-on-methods="com.assessment.tests.ApiTests.testCreateObject" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReadObject -->
+        <test-method signature="testUpdateObject()[pri:3, instance:com.assessment.tests.ApiTests@15f47664]" started-at="2026-07-10T06:38:45 UTC" name="testUpdateObject" finished-at="2026-07-10T06:38:45 UTC" depends-on-methods="com.assessment.tests.ApiTests.testReadObject" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateObject -->
+        <test-method signature="testDeleteObject()[pri:4, instance:com.assessment.tests.ApiTests@15f47664]" started-at="2026-07-10T06:38:45 UTC" name="testDeleteObject" finished-at="2026-07-10T06:38:45 UTC" depends-on-methods="com.assessment.tests.ApiTests.testUpdateObject" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteObject -->
+        <test-method signature="testNegativeCaseGetDeletedObject()[pri:5, instance:com.assessment.tests.ApiTests@15f47664]" started-at="2026-07-10T06:38:45 UTC" name="testNegativeCaseGetDeletedObject" finished-at="2026-07-10T06:38:45 UTC" depends-on-methods="com.assessment.tests.ApiTests.testDeleteObject" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNegativeCaseGetDeletedObject -->
+      </class> <!-- com.assessment.tests.ApiTests -->
+      <class name="com.assessment.tests.UiTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.assessment.tests.UiTests@4bc222e]" started-at="2026-07-10T06:38:45 UTC" name="setUp" finished-at="2026-07-10T06:38:49 UTC" duration-ms="4308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testHappyPathLoginAndAddToCart()[pri:1, instance:com.assessment.tests.UiTests@4bc222e]" started-at="2026-07-10T06:38:49 UTC" name="testHappyPathLoginAndAddToCart" finished-at="2026-07-10T06:38:50 UTC" duration-ms="1049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHappyPathLoginAndAddToCart -->
+        <test-method signature="testUnhappyPathLockedOutUser()[pri:2, instance:com.assessment.tests.UiTests@4bc222e]" started-at="2026-07-10T06:38:50 UTC" name="testUnhappyPathLockedOutUser" finished-at="2026-07-10T06:38:51 UTC" duration-ms="373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnhappyPathLockedOutUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.assessment.tests.UiTests@4bc222e]" started-at="2026-07-10T06:38:51 UTC" name="tearDown" finished-at="2026-07-10T06:38:51 UTC" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.assessment.tests.UiTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

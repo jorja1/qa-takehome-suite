@@ -1,0 +1,4 @@
+com/assessment/tests/ApiTests.class
+com/assessment/pages/LoginPage.class
+com/assessment/pages/ProductsPage.class
+com/assessment/tests/UiTests.class

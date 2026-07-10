@@ -20,6 +20,10 @@ public class UiTests {
         ChromeOptions options = new ChromeOptions();
         // Headless mode runs invisible in the background, which is required for cloud/CI environments!
         options.addArguments("--headless=new");
+        options.addArguments("--no-sandbox");           // <-- ADD THIS LINE
+        options.addArguments("--disable-dev-shm-usage");
+        options.addArguments("--disable-gpu"); // <-- Add this line
+        
         
         driver = new ChromeDriver(options);
         driver.manage().window().maximize();
